@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:zesty
 
 RUN apt-get update \
     && apt-get install -y build-essential texlive-full biber pandoc \
